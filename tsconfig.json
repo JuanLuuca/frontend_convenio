@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "outDir": "./dist",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "module": "ES6",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true
+  },
+  "exclude": [
+    "dist"
+  ],
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
